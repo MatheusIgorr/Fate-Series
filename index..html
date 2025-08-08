@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fate Series - Parallax</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="icon/fate series.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;800&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Video Background Section -->
+    <section class="video-section" id="videoSection">
+        <video class="background-video" autoplay muted loop playsinline>
+            <source src="Zero Season 2 (1).mp4" type="video/mp4">
+            Seu navegador não suporta o elemento de vídeo.
+        </video>
+        
+        <!-- Rain Effect -->
+        <div class="rain-container" id="rainContainer"></div>
+        
+        <!-- Title Overlay -->
+        <div class="title-overlay">
+            <h1 class="main-title">Fate Series</h1>
+        </div>
+    </section>
+
+    <!-- Spacer -->
+    <div class="spacer"></div>
+
+    <!-- Classes Title Section -->
+    <section class="classes-title-section">
+        <h2 class="classes-title" id="classesTitle">Classes</h2>
+        <p class="classes-subtitle" id="classesSubtitle">Choose Your Destiny</p>
+    </section>
+
+    <!-- Characters Section -->
+    <section class="characters-section" id="charactersSection">
+        <!-- Rain Effect for Characters Section -->
+        <div class="characters-rain-container" id="charactersRainContainer"></div>
+        
+        <div class="carousel-container">
+            <div class="carousel-slides" id="carouselSlides">
+                <!-- Saber -->
+                <div class="character-slide omen-theme active" style="background-image:url('back/saber-back.jpg')">
+                    <div class="character-content">
+                        <div class="vertical-text">
+                            <h6 class="vertical-label">FATE STAY NIGHT</h6>
+                            <img src="icon/FATEE.png" alt="Logo" class="logo-img">
+                        </div>
+
+                        <div class="character-image">
+                            <img src="Personagem/saber (2).png" alt="saber" class="character-img">
+                        </div>
+
+                        <div class="character-info">
+                            <h5 class="character-role">Saber</h5>
+                            <h2 class="character-name">Artoria Pendragon</h2>
+
+                            <div class="description-box">
+                                <div class="description-icon">
+                                    <img src="habilidade/sword.png" alt="saber">
+                                </div>
+                                <div class="description-content">
+                                    <h5>Saber</h5>
+                                    <p>Excalibur: The Sword of Promised Victory. Trata-se de uma das armas mais poderosas de toda a franquia Fate — uma espada sagrada que representa a esperança e a vontade de proteger o povo.</p>
+                                </div>
+                            </div>
+
+                            <div class="abilities-grid">
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/BENÇÃO DE DEUS.png" alt="Q">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Benção de Manoplas</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/AIR SHIELD.png" alt="E">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Invisible Air Sword/shield</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/AVALON.png" alt="C">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Sword Avalon</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/Excalibur.png" alt="X">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Legendary Sword EXCALIBUR</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contract-button" style="background-image: url('')">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Rider -->
+                <div class="character-slide phoenix-theme" style="background-image: url('back/back-rider.jpg')">
+                    <div class="character-content">
+                        <div class="vertical-text">
+                            <h6 class="vertical-label">FATE STAY NIGHT</h6>
+                            <img src="icon/FATEE.png" alt="Logo" class="logo-img">
+                        </div>
+
+                        <div class="character-image">
+                            <img src="Personagem/ride.png" alt="Rider" class="character-img">
+                        </div>
+
+                        <div class="character-info">
+                            <h5 class="character-role">RIDER</h5>
+                            <h2 class="character-name">Medusa</h2>
+
+                            <div class="description-box">
+                                <div class="description-icon">
+                                    <img src="icon/rider.png" alt="">
+                                </div>
+                                <div class="description-content">
+                                    <h5>RIDER</h5>
+                                    <p>Rider é a Serva da classe montaria (Rider) na rota Heaven's Feel de Fate/Stay Night, sendo a encarnação mitológica de Medusa, a famosa Górgona da mitologia grega.</p>
+                                </div>
+                            </div>
+
+                            <div class="abilities-grid">
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/adagas for.png" alt="Q">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Punhais do Oblivion</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/serpent eye.png" alt="E">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Serpent Eyes</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/colapso de Furia.png" alt="C">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Colapso de Furia</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/star pegasus.png" alt="X">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Star Pegasus</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contract-button" style="background-image: url('')">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Berserker -->
+                <div class="character-slide viper-theme" style="background-image: url('back/back-berrk.jpg')">
+                    <div class="character-content">
+                        <div class="vertical-text">
+                            <h6 class="vertical-label">FATE STAY NIGHT</h6>
+                            <img src="icon/FATEE.png" alt="Logo" class="logo-img">
+                        </div>
+
+                        <div class="character-image">
+                            <img src="Personagem/Beserk.png" alt="Berserker" class="character-img">
+                        </div>
+
+                        <div class="character-info">
+                            <h5 class="character-role">BESERK</h5>
+                            <h2 class="character-name">HÉRCULES</h2>
+
+                            <div class="description-box">
+                                <div class="description-icon">
+                                    <img src="icon/assassin.png" alt="Controller">
+                                </div>
+                                <div class="description-content">
+                                    <h5>BESERK</h5>
+                                    <p>Berserker, o Serva da classe Berserker na rota Heaven's Feel e Fate, é a manifestação heroica de Hércules (ou Heracles), o maior herói da mitologia grega.</p>
+                                </div>
+                            </div>
+
+                            <div class="abilities-grid">
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/corte de mana.png" alt="Q">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Corte de Mana</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/ira grega.png" alt="E">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Fortificação Grega</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/divisor de pais.png" alt="C">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Dividor de Países</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/determinação.png" alt="X">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Determinação de um Deus</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contract-button" style="background-image: url('')">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gilgamesh -->
+                <div class="character-slide gilgamesh-theme" style="background-image: url('back/gilgamesh-back.png')">
+                    <div class="character-content">
+                        <div class="vertical-text">
+                            <h6 class="vertical-label">FATE ZERO</h6>
+                            <img src="icon/fate zero.png" alt="Logo" class="logo-img">
+                        </div>
+
+                        <div class="character-image">
+                            <img src="Personagem/gilgamesh.png" alt="Gilgamesh" class="character-img">
+                        </div>
+
+                        <div class="character-info">
+                            <h5 class="character-role">ARCHER</h5>
+                            <h2 class="character-name">GILGAMESH</h2>
+
+                            <div class="description-box">
+                                <div class="description-icon">
+                                    <img src="icon/guardian.png" alt="Gilgamesh">
+                                </div>
+                                <div class="description-content">
+                                    <h5>KING OF HEROES</h5>
+                                    <p>O Rei dos Heróis, possuidor do Gate of Babylon que contém todos os tesouros do mundo. Considerado o mais forte Servant da classe Archer.</p>
+                                </div>
+                            </div>
+
+                            <div class="abilities-grid">
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/portoes.png" alt="Q">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Gate of Babylon</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/enkidu chains.png" alt="E">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Enkidu Chains</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/ARMADURA  DOURADA.png" alt="C">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Golden Armor</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/enuma.png" alt="X">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Enuma Elish</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contract-button" style="background-image: url('')">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quetzalcoatl -->
+                <div class="character-slide quetzalcoatl-theme" style="background-image: url('back/quetzcoal-back.jpg')">
+                    <div class="character-content">
+                        <div class="vertical-text">
+                            <h6 class="vertical-label">FATE GRAND ORDER</h6>
+                            <img src="FATEE.png" alt="Logo" class="logo-img">
+                        </div>
+
+                        <div class="character-image">
+                            <img src="Personagem/quetzcoal.png" alt="Quetzalcoatl" class="character-img">
+                        </div>
+
+                        <div class="character-info">
+                            <h5 class="character-role">RIDER</h5>
+                            <h2 class="character-name">QUETZALCOATL</h2>
+
+                            <div class="description-box">
+                                <div class="description-icon">
+                                    <img src="icon/guardian.png" alt="Quetzalcoatl">
+                                </div>
+                                <div class="description-content">
+                                    <h5>MESOAMERICAN GODDESS</h5>
+                                    <p>A deusa da civilização mesoamericana que adora humanos e luta. Conhecida por sua personalidade alegre e poder esmagador.</p>
+                                </div>
+                            </div>
+
+                            <div class="abilities-grid">
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/xiathol.png" alt="Q">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Xiuhcoatl</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/lucha.png" alt="E">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Lucha Libre</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/piedra del sol.png" alt="C">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Piedra del Sol</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/ultimo tope patada.png" alt="X">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Ultimo Tope Patada</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contract-button" style="background-image: url('')">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ishtar -->
+                <div class="character-slide ishtar-theme" style="background-image: url('back/leonidas-back.jpg')">
+                    <div class="character-content">
+                        <div class="vertical-text">
+                            <h6 class="vertical-label">FATE GRAND ORDER</h6>
+                            <img src="FATEE.png" alt="Logo" class="logo-img">
+                        </div>
+
+                        <div class="character-image">
+                            <img src="Personagem/Leonidas.png" alt="Ishtar" class="character-img">
+                        </div>
+
+                        <div class="character-info">
+                            <h5 class="character-role">Lancer</h5>
+                            <h2 class="character-name">Leonidas</h2>
+
+                            <div class="description-box">
+                                <div class="description-icon">
+                                    <img src="icon/lancers.png" alt="Ishtar">
+                                </div>
+                                <div class="description-content">
+                                    <h5>GODDESS OF WAR</h5>
+                                    <p>O heroi que o Nome é referenciado até pelos deuses Leonidas o Impiedoso. A alcunha de um homem que busca TRIUNFOS E GLÓRIAS</p>
+                                </div>
+                            </div>
+
+                            <div class="abilities-grid">
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/lança.png" alt="Q">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Lança de Mil Homens</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/escudo de leos.png" alt="E">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Escudo de couraça de leões</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/grandeza imperio.png" alt="C">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Grandeza do Imperio</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/aura de rei.png" alt="X">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Aura de um REI</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contract-button" style="background-image: url('')">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nero -->
+                <div class="character-slide nero-theme" style="background-image: url('back/nero-back.png')">
+                    <div class="character-content">
+                        <div class="vertical-text">
+                            <h6 class="vertical-label">FATE EXTRA</h6>
+                            <img src="FATEE.png" alt="Logo" class="logo-img">
+                        </div>
+
+                        <div class="character-image">
+                            <img src="Personagem/nero.png" alt="Nero" class="character-img">
+                        </div>
+
+                        <div class="character-info">
+                            <h5 class="character-role">SABER</h5>
+                            <h2 class="character-name">NERO CLAUDIUS</h2>
+
+                            <div class="description-box">
+                                <div class="description-icon">
+                                    <img src="icon/sword.png" alt="Nero">
+                                </div>
+                                <div class="description-content">
+                                    <h5>EMPEROR OF ROME</h5>
+                                    <p>A imperadora de Roma que se considera um gênio artístico. Sua espada flamejante e personalidade extravagante a tornam única entre os Sabers.</p>
+                                </div>
+                            </div>
+
+                            <div class="abilities-grid">
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/aestus.png" alt="Q">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Aestus Estus</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/privileigios.png" alt="E">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Imperial Privilege</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/magic.png" alt="C">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Flame Magic</p>
+                                    </div>
+                                </div>
+                                <div class="ability-item">
+                                    <div class="ability-icon">
+                                        <img src="habilidade/laus saint.png" alt="X">
+                                    </div>
+                                    <div class="ability-key">
+                                        <p>Laus Saint Claudius</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contract-button" style="background-image: url('')">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel Navigation -->
+            <div class="carousel-nav">
+                <div class="nav-dot active omen-theme" data-slide="0">
+                    <img src="icon/s-icon.png" alt="Saber">
+                </div>
+                <div class="nav-dot phoenix-theme" data-slide="1">
+                    <img src="icon/r-icon.png" alt="Rider">
+                </div>
+                <div class="nav-dot viper-theme" data-slide="2">
+                    <img src="icon/b-icon.png" alt="Berserker">
+                </div>
+                <div class="nav-dot gilgamesh-theme" data-slide="3">
+                    <img src="icon/icon-g.png" alt="Gilgamesh">
+                </div>
+                <div class="nav-dot quetzalcoatl-theme" data-slide="4">
+                    <img src="icon/icon-q.png" alt="Quetzalcoatl">
+                </div>
+                <div class="nav-dot ishtar-theme" data-slide="5">
+                    <img src="icon/icon-l.png" alt="leonidas">
+                </div>
+                <div class="nav-dot nero-theme" data-slide="6">
+                    <img src="icon/icon-n.png" alt="Nero">
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+    </section>
+    <!-- História dos Animes Fate -->
+<section class="fate-anime-history">
+
+  <!-- Fate/Stay Night (2006) -->
+  <div class="anime-story stay-night-2006">
+    <div class="parallax-bg" style="background-image: url('anime-history/stay-night-2006-bg.jpg')"></div>
+    <div class="anime-container">
+      <div class="anime-poster">
+        <img src="back/back-fate stay.jpg" alt="Fate/Stay Night 2006">
+        <div class="watch-badge">
+          <i class="fas fa-play"></i> Studio Deen (2006)
+        </div>
+      </div>
+      <div class="anime-synopsis">
+        <h2>Fate/Stay Night</h2>
+        <h3>A Rota Fate Adaptada</h3>
+        <div class="synopsis-content">
+          <p>A primeira adaptação anime da franquia, cobrindo principalmente a rota "Fate" da visual novel.</p>
+          <p>Shirou Emiya, um jovem mago inexperiente, acidentalmente se torna Mestre na 5ª Guerra do Santo Graal, convocando a Servant Saber. Juntos, eles enfrentam outros Mestres e Servants enquanto segredos sobre o passado de Shirou e a verdade por trás do Santo Graal são revelados.</p>
+          <div class="key-points">
+            <div class="point">
+              <i class="fas fa-sword"></i>
+              <span>Introdução ao universo Fate</span>
+            </div>
+            <div class="point">
+              <i class="fas fa-heart"></i>
+              <span>Foco no relacionamento Shirou/Saber</span>
+            </div>
+            <div class="point">
+              <i class="fas fa-exclamation-triangle"></i>
+              <span>Adaptação considerada incompleta por cobrir apenas uma rota</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-arrow"></div>
+  </div>
+
+  <!-- Fate/Zero -->
+  <div class="anime-story zero">
+    <div class="parallax-bg" style="background-image: url('anime-history/zero-bg.jpg')"></div>
+    <div class="anime-container reverse">
+      <div class="anime-poster">
+        <img src="back/back-fate zero.jpg" alt="Fate/Zero">
+        <div class="watch-badge">
+          <i class="fas fa-play"></i> ufotable (2011-2012)
+        </div>
+      </div>
+      <div class="anime-synopsis">
+        <h2>Fate/Zero</h2>
+        <h3>A 4ª Guerra do Santo Graal</h3>
+        <div class="synopsis-content">
+          <p>Prequela de Fate/Stay Night que mostra a 4ª Guerra do Santo Graal, ocorrida 10 anos antes dos eventos originais.</p>
+          <p>Kiritsugu Emiya, conhecido como "Mercenário Mágico", é contratado pela família Einzbern para vencer a guerra. Suas táticas brutais entram em conflito com os ideais de sua Servant, Saber, enquanto outros participantes como Kirei Kotomine e o Rei dos Heróis Gilgamesh desenvolvem seus próprios planos.</p>
+          <div class="key-points">
+            <div class="point">
+              <i class="fas fa-skull"></i>
+              <span>Tonalidade mais sombria e adulta</span>
+            </div>
+            <div class="point">
+              <i class="fas fa-crown"></i>
+              <span>Apresentação épica de Servants lendários</span>
+            </div>
+            <div class="point">
+              <i class="fas fa-bomb"></i>
+              <span>Batalhas espetaculares animadas pela ufotable</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-arrow"></div>
+  </div>
+
+  <!-- Fate/Stay Night: Unlimited Blade Works -->
+  <div class="anime-story ubw">
+    <div class="parallax-bg" style="background-image: url('anime-history/ubw-bg.jpg')"></div>
+    <div class="anime-container">
+      <div class="anime-poster">
+        <img src="back/BACK-BLADES.jpg" alt="Unlimited Blade Works">
+        <div class="watch-badge">
+          <i class="fas fa-play"></i> ufotable (2014-2015)
+        </div>
+      </div>
+      <div class="anime-synopsis">
+        <h2>Fate/Stay Night: Unlimited Blade Works</h2>
+        <h3>A Rota do Archer</h3>
+        <div class="synopsis-content">
+          <p>Nova adaptação pela ufotable focando na rota "Unlimited Blade Works", com Shirou desenvolvendo uma relação diferente com Rin Tohsaka.</p>
+          <p>Enquanto Shirou e Rin formam uma aliança inesperada, a identidade do misterioso Archer e sua conexão com Shirou se tornam centrais para a trama. A história explora temas de idealismo versus cinismo e o custo de se tornar um herói.</p>
+          <div class="key-points">
+            <div class="point">
+              <i class="fas fa-arrows-alt-h"></i>
+              <span>Conflito filosófico entre Shirou e Archer</span>
+            </div>
+            <div class="point">
+              <i class="fas fa-magic"></i>
+              <span>Revelação do Reality Marble "Unlimited Blade Works"</span>
+            </div>
+            <div class="point">
+              <i class="fas fa-fire"></i>
+              <span>Animação espetacular nas cenas de ação</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-arrow"></div>
+  </div>
+
+  <!-- Fate/Stay Night: Heaven's Feel -->
+  <div class="anime-story hf">
+    <div class="parallax-bg" style="background-image: url('anime-history/hf-bg.jpg')"></div>
+    <div class="anime-container reverse">
+      <div class="anime-poster">
+        <img src="back/back-heaven.png" alt="Heaven's Feel">
+        <div class="watch-badge">
+          <i class="fas fa-play"></i> ufotable (2017-2020)
+        </div>
+      </div>
+      <div class="anime-synopsis">
+        <h2>Fate/Stay Night: Heaven's Feel</h2>
+        <h3>A Rota Sombria de Sakura</h3>
+        <div class="synopsis-content">
+          <p>Trilogia de filmes adaptando a rota mais sombria e madura da visual novel original, focada em Sakura Matou.</p>
+          <p>Com Sakura finalmente tendo seu momento no centro da narrativa, segredos horríveis sobre sua família e o verdadeiro propósito da Guerra do Santo Graal são revelados. Shirou é forçado a confrontar seus ideais quando confrontado com escolhas impossíveis.</p>
+          <div class="key-points">
+            <div class="point">
+              <i class="fas fa-moon"></i>
+              <span>Tonalidade muito mais sombria e violenta</span>
+            </div>
+            <div class="point">
+              <i class="fas fa-heart-broken"></i>
+              <span>Exploração do trauma de Sakura e da família Matou</span>
+            </div>
+            <div class="point">
+              <i class="fas fa-ghost"></i>
+              <span>Revelações sobre Angra Mainyu e o Santo Graal corrompido</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="timeline-arrow"></div>
+  </div>
+
+  <div class="anime-story fgo">
+  <div class="parallax-bg" style="background-image: url('anime-history/fgo-bg.jpg')"></div>
+  <div class="anime-container">
+    <div class="anime-poster">
+      <img src="back/back-order.jpg" alt="Fate/Grand Order">
+      <div class="watch-badge">
+        <i class="fas fa-play"></i> Production I.G / CloverWorks (2021-)
+      </div>
+    </div>
+    <div class="anime-synopsis">
+      <h2>Fate/Grand Order</h2>
+      <h3>A Jornada para Salvar a História da Humanidade</h3>
+      <div class="synopsis-content">
+        <p>Adaptação da popular mobile game que se tornou um fenômeno mundial, seguindo os Mestres da Chaldea em sua missão para corrigir singularidades temporais e restaurar a história humana.</p>
+        <p>Com uma enorme variedade de Servants históricos e lendários, a história explora temas de sacrifício, destino e o valor da civilização humana contra ameaças existenciais.</p>
+        <div class="key-points">
+          <div class="point">
+            <i class="fas fa-globe"></i>
+            <span>Jornada através de diferentes períodos históricos</span>
+          </div>
+          <div class="point">
+            <i class="fas fa-users"></i>
+            <span>Diversos protagonistas e Servants icônicos</span>
+          </div>
+          <div class="point">
+            <i class="fas fa-hourglass-end"></i>
+            <span>Batalhas contra os Beasts e ameaças à humanidade</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</section>
+
+    <!-- Credits -->
+    <div class="credits">
+        <p>Fate Series por Matheus Igor</p>
+    </div>
+    
+    <script src="scripts.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
