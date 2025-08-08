@@ -39,15 +39,16 @@
         }
 
         /* Rain Effect */
-        .rain-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 10;
-            pointer-events: none;
-        }
+        .rain-container, .characters-rain-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 10;
+}
 
         .rain {
             background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
@@ -1220,3 +1221,4 @@
                 height: 3rem;
             }
         }
+
